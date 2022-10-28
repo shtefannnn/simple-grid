@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 63px 0 64px;
+}
+
+
+.title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47.4px;
+    margin-bottom: 20px;
+    color:#152A41;
+}
+
+
+.subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 93px;
+    color: #7C8698;
+}
+
+
+.list{
+width: 100%;
+max-width: 1239px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+.card{
+    width: 100%;
+    max-width: 393px;
+    background-color:#F4F5F7 ;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+.card-icon{
+width: 32px;
+height: 32px;
+margin-bottom: 31px;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.44px;
+    color: #152A41;
+    margin-bottom: 18px;
+}
+
+
+.card-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #606C82;
+    margin-bottom: 29px;
+}
+
+
+.card-link{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #37CDAB;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+
+.card-icon-arrow{
+   width: 20px;
+   height: 20px;
+   margin-left: 8px;
+}
+
+
+.card:hover{
+    background-color: #E8ECFF;
+    cursor: pointer;
+}
+
+
+.card-link:hover{
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    ;
+}
+
+
+.card-link:focus{
+    border-radius: 8px;
+    border: 2px solid #37CDAB;
+    background-color: #FFFFFF;
+    ;
+}
